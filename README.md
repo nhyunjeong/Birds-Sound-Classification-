@@ -68,10 +68,12 @@ https://no-loo.tistory.com/120?category=1095719
 - one hot encoding  
 	
 ## 6. sound wave 시각화 살펴보기
+
 - wave 시각화 (1개 & 12개) 
 	![SOUND Waves](https://user-images.githubusercontent.com/95748637/196601165-2d479bf4-247e-4cb2-b5e4-a5be2f177a9a.png)   
 	- 종별로 다양한 형태의 wave 형태를 가지고 있다. 
-	
+
+### 훈련데이터의 x[0] 번째 요소의 시각화 살펴보기 
 - spectrogram 
 
 	![spectogram](https://user-images.githubusercontent.com/95748637/196601156-e4bbe4f9-efd2-4c90-ad12-00d2f0844e7e.png)
