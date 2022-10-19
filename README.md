@@ -69,9 +69,29 @@ https://no-loo.tistory.com/120?category=1095719
 	
 ## 6. sound wave 시각화 살펴보기
 - wave 시각화 (1개 & 12개) 
+	![SOUND Waves](https://user-images.githubusercontent.com/95748637/196601165-2d479bf4-247e-4cb2-b5e4-a5be2f177a9a.png)   
+	- 종별로 다양한 형태의 wave 형태를 가지고 있다. 
+	
 - spectrogram 
+
+	![spectogram](https://user-images.githubusercontent.com/95748637/196601156-e4bbe4f9-efd2-4c90-ad12-00d2f0844e7e.png)
+	- 시간의 3~4 범위 중 2000 hz (낮은소리범위) 의 작은 소리의 값이 특징인것으로 보인다.
+	- 고속 푸리에 변환 인 (FFT) 를 시행하여 각 주파수의 대역별 세기를 살펴 볼 수 있다.
+	- 어떤 주파수가 강하고 약한지에 대한 정보를 얻을 수 있음 
+	- 즉 Spectrum 에서 소리 고유의 특징을 추출 할 수 있다. 
+	
 - Mel Spectrogram 
-- Mfccc 
+
+	![Mel Spectogram](https://user-images.githubusercontent.com/95748637/196601142-5c006e0d-ce01-46ee-8f0a-e54ea4ed2aaa.png)
+	- MFCC 를 위해 일반 Spectrum 이 아닌 특수한 필터인 Mel Spectrum(실제 사람이 인식하는 주파수의 관계를 표현한것) 에 Cepstral 분석을 적용해 추출한다. 
+
+	
+- Mfcc
+
+	![MFCC](https://user-images.githubusercontent.com/95748637/196601147-3e6343e6-b338-4f8e-bb43-de5819bf609d.png)
+	- Cepstral 배음 구조를 유추해 내어 소리 고유한 특징을 찾아내는것 
+
+	
 	
 	
 ## 7. 152종 신경망 구성 & 결과
